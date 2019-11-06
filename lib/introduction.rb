@@ -7,7 +7,11 @@ puts "Hi, my name is #{name}."
 end
 
 def introduction_with_language(name, language)
+<<<<<<< HEAD
  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+=======
+puts "Hi, my name is #{name} and I am learning to program in #{language}."
+>>>>>>> f580f62954ff6e0211d212114138b45718ee2c9a
 end
 
 def introduction_with_language_optional(name, language="Ruby")
